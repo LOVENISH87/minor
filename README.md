@@ -40,6 +40,3 @@ Built using **HTML**, **CSS**, and **JavaScript** — styled with a modern look 
 | 0        | 0        | 1 (by rule)|
 
 ---
-
-## 📂 Project Structure
-
