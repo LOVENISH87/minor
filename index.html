@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pow(x, n) Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Recursive Exponentiation: pow(x, n)</h1>
+            <p>Recursively compute <code>x<sup>n</sup></code> — even for negative powers.</p>
+        </header>
+
+
+        <section class="details">
+            <h2>Problem Description: </h2>
+            <h3>
+                <p id="trash">Power any number like a pro! This interactive tool lets you compute
+                    <code>x<sup>n</sup></code> using
+                    a clean recursive algorithm — even handles negative exponents and zero edge cases.</p>
+            </h3>
+
+            <p style="text-align: center; font-size: 1.2rem; font-family: Poppins, sans-serif; margin-top: 2rem;">
+                Example: 2<sup>3</sup> = 8
+            </p>
+
+            <p style="text-align: center; font-size: 1.2rem; font-family: Poppins, sans-serif;">
+                Example: 2<sup>-2</sup> = 0.25
+            </p>
+
+
+        </section>
+
+        <section>
+            <h2>Try it Yourself: </h2>
+            <div class="form-group">
+                <label for="base">Base (x):</label>
+                <input type="number" id="base" placeholder="e.g., 2.0" step="any" />
+            </div>
+            <div class="form-group">
+                <label for="exponent">Exponent (n):</label>
+                <input type="number" id="exponent" placeholder="e.g., -2" />
+            </div>
+            <button onclick="calculatePower()">Calculate</button>
+            <div id="result"></div>
+        </section>
+
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
